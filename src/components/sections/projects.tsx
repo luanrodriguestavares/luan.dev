@@ -2,6 +2,10 @@ import React, { useEffect } from 'react';
 import { FolderDot } from 'lucide-react';
 import Project from '../ui/project';
 import ScrollReveal from 'scrollreveal';
+import empregajovem from '@/assets/img/empregajovem.png';
+import ecologic from '@/assets/img/me.png';
+
+
 
 
 const Projects: React.FC = () => {
@@ -52,7 +56,7 @@ const Projects: React.FC = () => {
               <div className="md:ml-4 xl:ml-4 text-center mx-auto grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2">
                 <div className="left">
                     <Project
-                    imageSrc="./src/assets/img/empregajovem.png"
+                    imageSrc={empregajovem}
                     title="Emprega Jovem +"
                     description="Projeto voltado para jovens em busca de suas primeiras oportunidades no mercado de trabalho, os usuários podem criar currículos profissionais, destacando suas principais habilidades e experiências. Além disso, oferece uma plataforma para encontrar vagas de emprego ou para enviar informações para o banco de talentos."
                     tags={['HTML', 'Tailwind CSS', 'Javascript', 'Firebase']}
@@ -62,7 +66,7 @@ const Projects: React.FC = () => {
                 </div>
                 <div className="right">
                     <Project
-                    imageSrc="./src/assets/img/ecologic.png"
+                    imageSrc={ecologic}
                     title="Ecologic"
                     description="Projeto de conscientização de boas práticas de meio ambiente."
                     tags={['HTML', 'Tailwind CSS', 'Javascript']}
