@@ -40,14 +40,14 @@ const Stacks = () => {
   }, []);
 
     return (
-        <div className="p-4 sm:ml-64 mt-16">
-        <div className="mx-0 sm:md-0 md:mx-2 xl:mx-28">
+        <div className="sm:ml-64 mt-16">
+        <div className="sm:md-0 md:mx-2 xl:mx-28">
           <div className="flex items-center p-2 sm:p-3 md:p-4 xl:p-4  border border-zinc-300 rounded-lg dark:border-zinc-800">
-            <div className="ml-4 flex-grow  pb-8">
-              <h2 className="mb-2 text-xl font-bold text-zinc-700 dark:text-zinc-300 title">Stacks and uses<Computer className='inline ml-1 w-5 h-5' strokeWidth="1.5"></Computer></h2>
-              <p className="text-zinc-500 dark:text-zinc-400 font-normal text-sm title">These are technologies I enjoy working with and learning about.</p>
+            <div className="ml-4 mr-4 flex-grow  pb-8">
+              <h2 className="mb-2 mt-2 text-md xl:text-xl font-bold text-zinc-700 dark:text-zinc-300 title">Stacks and uses<Computer className='inline ml-1 w-5 h-5' strokeWidth="1.5"></Computer></h2>
+              <p className="text-zinc-500 dark:text-zinc-400 font-normal text-xs xl:text-sm title">These are technologies I enjoy working with and learning about.</p>
 
-              <AlertTitle className='mt-14 mb-2 ml-2 text-xl card'>Front-end</AlertTitle>
+              <AlertTitle className='mt-14 mb-2 text-md xl:text-xl font-bold text-zinc-700 dark:text-zinc-300 card'>Front-end</AlertTitle>
               <div className="mt-4 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4"> 
                 <Card src={html} ringColorClass="ring-orange-700" className='card'>
                   <AlertTitle className='mb-2 font-normal text-sm'>HTML</AlertTitle>
@@ -81,7 +81,7 @@ const Stacks = () => {
                 </Card>
               </div>
 
-              <AlertTitle className='mt-14 mb-2 ml-2 text-xl card'>Back-end</AlertTitle>
+              <AlertTitle className='mt-14 mb-2 text-md xl:text-xl font-bold text-zinc-700 dark:text-zinc-300 card'>Back-end</AlertTitle>
               <div className="mt-4 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4"> 
                 <Card src={express} ringColorClass="ring-zinc-500" className='card'>
                   <AlertTitle className='mb-2 font-normal text-sm'>Express</AlertTitle>
@@ -97,7 +97,7 @@ const Stacks = () => {
                 </Card>
               </div>
 
-              <AlertTitle className='mt-14 mb-2 ml-2 text-xl card'>Database</AlertTitle>
+              <AlertTitle className='mt-14 mb-2 text-md xl:text-xl font-bold text-zinc-700 dark:text-zinc-300 card'>Database</AlertTitle>
               <div className="mt-4 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4"> 
                 <Card src="https://796c21.p3cdn2.secureserver.net/wp-content/uploads/2018/10/SQL-Server-Logo.jpg?time=1707402428" ringColorClass="ring-blue-500" className='card'>
                   <AlertTitle className='mb-2 font-normal text-sm'>SQL Server</AlertTitle>
@@ -107,7 +107,7 @@ const Stacks = () => {
                 </Card>
               </div>
 
-              <AlertTitle className='mt-14 mb-2 ml-2 text-xl card'>Prototyping and design</AlertTitle>
+              <AlertTitle className='mt-14 mb-2 text-md xl:text-xl font-bold text-zinc-700 dark:text-zinc-300 card'>Prototyping and design</AlertTitle>
               <div className="mt-4 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4"> 
                 <Card src={figma} ringColorClass="ring-zinc-400" className='card'>
                   <AlertTitle className='mb-2 font-normal text-sm'>Figma</AlertTitle>
@@ -117,7 +117,7 @@ const Stacks = () => {
                 </Card>
               </div>
 
-              <AlertTitle className='mt-14 mb-2 ml-2 text-xl card'>Low-Code</AlertTitle>
+              <AlertTitle className='mt-14 mb-2 text-md xl:text-xl font-bold text-zinc-700 dark:text-zinc-300 card'>Low-Code</AlertTitle>
               <div className="mt-4 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4"> 
                 <Card src="https://reenhanced.com/wp-content/uploads/2021/07/powerapps.png" ringColorClass="ring-purple-500" className='card'>
                   <AlertTitle className='mb-2 font-normal text-sm'>Microsoft Power Apps</AlertTitle>
@@ -130,7 +130,7 @@ const Stacks = () => {
                 </Card>
               </div>
 
-                <AlertTitle className='mt-14 mb-2 ml-2 text-xl card'>Documentation</AlertTitle>
+                <AlertTitle className='mt-14 mb-2 text-md xl:text-xl font-bold text-zinc-700 dark:text-zinc-300 card'>Documentation</AlertTitle>
               <div className="mt-4 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4"> 
                 <Card src={docsauros} ringColorClass="ring-emerald-500" className='card'>
                   <AlertTitle className='mb-2 font-normal text-sm'>Docusauros</AlertTitle>
@@ -143,7 +143,7 @@ const Stacks = () => {
                 </Card>
               </div>
 
-              <AlertTitle className='mt-14 mb-2 ml-2 text-xl card'>Version Control</AlertTitle>
+              <AlertTitle className='mt-14 mb-2 text-md xl:text-xl font-bold text-zinc-700 dark:text-zinc-300 card'>Version Control</AlertTitle>
               <div className="mt-4 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4"> 
                 <Card src="https://git-scm.com/images/logos/logomark-orange@2x.png" ringColorClass="ring-orange-500" className='card'>
                   <AlertTitle className='mb-2 font-normal text-sm'>Git</AlertTitle>

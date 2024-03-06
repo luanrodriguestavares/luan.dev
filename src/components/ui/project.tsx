@@ -16,12 +16,6 @@ interface ProjectProps {
 
 const Project: React.FC<ProjectProps> = ({ imageSrc, title, description, tags, visitLink, viewCodeLink }) => {
 
-  const tagColors: Record<string, string> = {
-    'HTML': 'bg-orange-600 text-zinc-50 hover:bg-orange-700',
-    'Tailwind CSS': 'bg-blue-600 text-zinc-50 hover:bg-blue-700',
-    'Javascript': 'bg-yellow-500 text-zinc-50 hover:bg-yellow-600',
-    'Firebase': 'bg-amber-600 text-zinc-50 hover:bg-amber-700',
-  };
 
   return (
     <div className="flex-shrink-0 p-4">
@@ -68,16 +62,24 @@ const Project: React.FC<ProjectProps> = ({ imageSrc, title, description, tags, v
                 {description}
               </p>
             </div>
-            <div className="flex items-center">
-              <div className="mt-8 text-xs flex-grow">
+            <div className="flex flex-col sm:flex-row items-center">
+              <div className="mt-8 text-xs flex-grow flex">
                 {tags.map((tag, index) => (
-                  <Badge key={index} className={`ml-1 ${tagColors[tag] || 'bg-gray-500'}`} variant="default">
+                  <Badge key={index} className={`ml-1`} variant="default">
                     {tag}
                   </Badge>
                 ))}
               </div>
-              <Button className='mr-2' onClick={() => window.open(visitLink, "_blank")}><Link className='mr-1'></Link>Visit</Button>
-              <Button className='ml-auto' onClick={() => window.open(viewCodeLink, "_blank")}><Github className='mr-1'></Github>View code</Button>
+
+              <div className="flex mt-4 sm:mt-0">
+                <Button className='mr-2' onClick={() => window.open(visitLink, "_blank")}>
+                  <Link className='mr-1'></Link>Visit
+                </Button>
+
+                <Button onClick={() => window.open(viewCodeLink, "_blank")}>
+                  <Github className='mr-1'></Github>View code
+                </Button>
+              </div>
             </div>
           </div>
         </DialogContent>

@@ -3,7 +3,7 @@ import { FolderDot } from 'lucide-react';
 import Project from '../ui/project';
 import ScrollReveal from 'scrollreveal';
 import empregajovem from '@/assets/img/empregajovem.png';
-import ecologic from '@/assets/img/me.png';
+import ecologic from '@/assets/img/ecologic.png';
 
 
 
@@ -43,14 +43,14 @@ const Projects: React.FC = () => {
 }, []);
 
     return (
-      <div className="p-4 sm:ml-64 mt-16">
+      <div className="sm:ml-64 mt-16">
         <div className="gap-2 xl:mx-28">
           <div className="flex items-center p-2 sm:p-3 md:p-4 xl:p-4 border border-zinc-300 rounded-lg dark:border-zinc-800">
             <div className="flex-grow pb-8">
-              <h2 className="ml-4 mb-2 text-xl font-bold text-zinc-700 dark:text-zinc-300 title">
+              <h2 className="mb-2 ml-4 mt-2 text-md xl:text-xl font-bold text-zinc-700 dark:text-zinc-300 title">
                 Projects<FolderDot className='inline ml-1 w-5 h-5' strokeWidth="1.5"></FolderDot>
               </h2>
-              <p className="ml-4 text-zinc-500 dark:text-zinc-400 font-normal text-sm title mb-8">
+              <p className="ml-4 text-zinc-500 dark:text-zinc-400 font-normal text-xs xl:text-sm title mb-8">
                 These are my favorite projects.
               </p>
               <div className="md:ml-4 xl:ml-4 text-center mx-auto grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2">

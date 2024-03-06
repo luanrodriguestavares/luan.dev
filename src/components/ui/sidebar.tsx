@@ -87,12 +87,12 @@ const Sidebar = () => {
                 <span className="ml-2 text-sm font-normal">Projects</span>
               </Link>
             </li>
-            <li className={`group ${location.pathname === '/experiences' ? 'bg-zinc-200 dark:bg-zinc-900 rounded-lg' : ''}`}>
+            {/*<li className={`group ${location.pathname === '/experiences' ? 'bg-zinc-200 dark:bg-zinc-900 rounded-lg' : ''}`}>
               <Link to="/experiences" className="flex items-center p-2 text-zinc-900 dark:text-zinc-50 rounded-lg hover:bg-zinc-200 dark:hover:bg-zinc-900 cursor-default group">
                 <Briefcase className="w-5 h-5"/>
                 <span className="ml-2 text-sm font-normal">Experiences</span>
               </Link>
-            </li>
+            </li>*/}
           </ul>
         </div>
       </aside>

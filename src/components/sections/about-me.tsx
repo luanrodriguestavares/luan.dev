@@ -12,8 +12,6 @@ import fiap from '@/assets/img/fiap.png';
 import fundacaoBradesco from '@/assets/img/fundacaoBradesco.png';
 
 
-
-
 const AboutMe: React.FC = () => {
   useEffect(() => {
 
@@ -65,15 +63,15 @@ const AboutMe: React.FC = () => {
   
     return (
 
-        <div className="p-4 sm:ml-64 mt-16">
+        <div className="sm:ml-64 mt-16">
             <div className="xl:mx-28">
               <div className="flex items-center p-4 border border-zinc-300 rounded-lg dark:border-zinc-800 profile">
                 <div className="flex-shrink-0 h-32 w-32 bg-zinc-50 dark:bg-zinc-800">
                   <img className="h-full w-full object-cover rounded-md" src={me} alt="luan"/>
                 </div>
                 <div className="ml-4 flex-grow ">
-                  <h2 className="text-xl font-bold text-zinc-700 dark:text-zinc-300">Luan Rodrigues</h2>
-                  <p className="text-zinc-500 dark:text-zinc-400 font-normal text-sm mb-8">Fullstack Developer</p>
+                  <h2 className="text-lg font-bold text-zinc-700 dark:text-zinc-300">Luan Rodrigues</h2>
+                  <p className="text-zinc-500 dark:text-zinc-400 font-normal text-xs mb-8">Fullstack Developer</p>
                   <div className="hidden md:flex text-xs flex-wrap items-center mt-4 gap-2">
                     <Badge variant="default" className='font-normal techs'>ReactJS</Badge>
                     <Badge variant="default" className='font-normal techs'>JavaScript</Badge>
@@ -85,24 +83,24 @@ const AboutMe: React.FC = () => {
 
             <div className="mt-4 flex items-center p-4 border border-zinc-300 rounded-lg dark:border-zinc-800 profile">
               <div className="xl:mx-4 flex-grow">
-                <h2 className="mb-8 text-xl font-bold text-zinc-700 dark:text-zinc-300">Hi there!<Rocket className='inline ml-1 w-5 h-5'  stroke-width="1.5"></Rocket> </h2>
+                <h2 className="mb-8 text-md xl:text-xl font-bold text-zinc-700 dark:text-zinc-300">Hi there!<Rocket className='inline ml-1 w-5 h-5'  stroke-width="1.5"></Rocket> </h2>
                 <p className="my-3 text-justify text-zinc-500 dark:text-zinc-400 text-sm mb-8">I'm Luan, a fullstack developer with experience in <strong>ReactJS</strong>, <strong>React Native</strong>, <strong>Javascript</strong>, <strong>Typescript</strong>, and <strong>NodeJS</strong>. I create integrated and innovative solutions, always eager to explore new horizons in the world of technology. Let’s bring ideas to life and create impactful digital experiences together!</p>
               </div>
             </div>
 
             <div className="mt-4 gap-4 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 xl:grid-cols-2 profile">
                 <div className="flex-shrink-0 w-full p-4 border border-zinc-300 rounded-lg dark:border-zinc-800 h-full">
-                  <h2 className="xl:mx-4 mb-8 text-xl font-bold text-zinc-700 dark:text-zinc-300">Academic education<GraduationCap className='inline ml-1 w-5 h-5'  stroke-width="1.5"></GraduationCap> </h2>
+                  <h2 className="xl:mx-4 mb-8 text-md xl:text-xl font-bold text-zinc-700 dark:text-zinc-300">Academic education<GraduationCap className='inline ml-1 w-5 h-5'  stroke-width="1.5"></GraduationCap> </h2>
 
                   <div className="xl:mx-4">
-                    <div className="group rounded-xl flex items-center gap-4 bg-zinc-50 dark:bg-zinc-950 pb-5 xl:p-5 card">
-                      <div className="group-hover:ring-8 ring-blue-600 ring-opacity-50 rounded-full overflow-hidden transition-all duration-300 ease-in-out">
+                  <div className="group rounded-xl flex items-center gap-4 bg-zinc-50 dark:bg-zinc-950 pb-5 xl:p-5 card">
+                  <div className="group-hover:ring-8 ring-blue-500 ring-opacity-50 rounded-full overflow-hidden transition-all duration-300 ease-in-out">
                         <img src={si} alt="Descrição da imagem" className="w-12 h-auto transition-all duration-300 ease-in-out"/>
                       </div>
                       <div className="font-medium dark:text-white">
-                        <AlertTitle className='mb-2'>Information Systems</AlertTitle>
+                        <AlertTitle className='mb-2 text-zinc-700 dark:text-zinc-300 text-sm'>Information Systems</AlertTitle>
                         <p className='text-zinc-500 dark:text-zinc-400 text-xs font-normal'>
-                          Degree in Information Systems from UNINTA College.
+                          Degree in Information Systems from UNINTA.
                         </p>
                       </div>
                     </div>
@@ -113,7 +111,7 @@ const AboutMe: React.FC = () => {
                         <img src={fiap} alt="Descrição da imagem" className="w-12 h-auto transition-all duration-300 ease-in-out"/>
                       </div>
                       <div className="font-medium dark:text-white">
-                        <AlertTitle className='mb-2'>IT Infrastructure Management</AlertTitle>
+                        <AlertTitle className='mb-2 text-zinc-700 dark:text-zinc-300 text-sm'>IT Infrastructure Management</AlertTitle>
                         <p className='text-zinc-500 dark:text-zinc-400 text-xs font-normal'>
                           Course by FIAP institution.
                         </p>
@@ -126,7 +124,7 @@ const AboutMe: React.FC = () => {
                         <img src={ifce} alt="Descrição da imagem" className="w-12 h-auto transition-all duration-300 ease-in-out"/>
                       </div>
                       <div className="font-medium dark:text-white">
-                        <AlertTitle className='mb-2'>Data Pre-Processing in Python</AlertTitle>
+                        <AlertTitle className='mb-2 text-zinc-700 dark:text-zinc-300 text-sm'>Data Pre-Processing in Python</AlertTitle>
                         <p className='text-zinc-500 dark:text-zinc-400 text-xs font-normal'>
                           Training by the Federal Institute of Ceará (IFCE).
                         </p>
@@ -139,7 +137,7 @@ const AboutMe: React.FC = () => {
                         <img src={rocketseat} alt="Descrição da imagem" className="w-12 h-auto transition-all duration-300 ease-in-out"/>
                       </div>
                       <div className="font-medium dark:text-white">
-                        <AlertTitle className='mb-2'>Discover</AlertTitle>
+                        <AlertTitle className='text-zinc-700 dark:text-zinc-300 text-sm'>Discover</AlertTitle>
                         <p className='text-zinc-500 dark:text-zinc-400 text-xs font-normal'>
                           Web development course by Rocketseat.
                         </p>
@@ -152,7 +150,7 @@ const AboutMe: React.FC = () => {
                         <img src={fundacaoBradesco} alt="Descrição da imagem" className="w-12 h-auto transition-all duration-300 ease-in-out"/>
                       </div>
                       <div className="font-medium dark:text-white">
-                        <AlertTitle className='mb-2'>IT Systems Projects</AlertTitle>
+                        <AlertTitle className='text-zinc-700 dark:text-zinc-300 text-sm'>IT Systems Projects</AlertTitle>
                         <p className='text-zinc-500 dark:text-zinc-400 text-xs font-normal'>
                           Course by Bradesco Foundation.
                         </p>
@@ -162,7 +160,7 @@ const AboutMe: React.FC = () => {
               </div>
 
               <div className="flex-shrink-0 w-full p-4 border border-zinc-300 rounded-lg dark:border-zinc-800 h-full profile">
-                <h2 className="xl:mx-4 mb-8 text-xl font-bold text-zinc-700 dark:text-zinc-300 title">My favorite songs<Headphones className='inline ml-1 w-5 h-5'  stroke-width="1.5"></Headphones> <Badge variant="secondary" className='ml-3'>At this moment</Badge></h2>
+                <h2 className="xl:mx-4 mb-8 text-md xl:text-xl font-bold text-zinc-700 dark:text-zinc-300 title">My favorite songs<Headphones className='inline ml-1 w-5 h-5'  stroke-width="1.5"></Headphones> <Badge variant="secondary" className='text-xs'>At this moment</Badge></h2>
                 <div className="xl:mx-2 pb-5 xl:p-5 mb-4" >
                   <div className="cardMusic">
                     <Song trackId="2TdmH7Ei4hvys9sBqIV5B4" />
