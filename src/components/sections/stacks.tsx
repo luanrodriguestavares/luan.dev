@@ -3,6 +3,7 @@ import ScrollReveal from 'scrollreveal';
 import Card from "@/components/ui/card";
 import { AlertTitle } from "@/components/ui/alert";
 import { Computer } from 'lucide-react';
+
 import html from '@/assets/img/html.png';
 import css from '@/assets/img/css.png';
 import react from '@/assets/img/react.png';
@@ -13,9 +14,8 @@ import node from '@/assets/img/node.png';
 import python from '@/assets/img/python.png';
 import java from '@/assets/img/java.png';
 import figma from '@/assets/img/figma.png';
-import docusauros from '@/assets/img/docusauros.png';
+import docsauros from '@/assets/img/docsauros.png';
 import azure from '@/assets/img/azure.png';
-
 
 
 const Stacks = () => {
@@ -132,7 +132,7 @@ const Stacks = () => {
 
                 <AlertTitle className='mt-14 mb-2 ml-2 text-xl card'>Documentation</AlertTitle>
               <div className="mt-4 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4"> 
-                <Card src={docusauros} ringColorClass="ring-emerald-500" className='card'>
+                <Card src={docsauros} ringColorClass="ring-emerald-500" className='card'>
                   <AlertTitle className='mb-2 font-normal text-sm'>Docusauros</AlertTitle>
                 </Card>
                 <Card src="https://nodesk.co/remote-companies/assets/logos/gitbook.63070d9d5dc2ca7db32f8c580351ab83849a2620947fdc5359784ac27d7a9ed5.jpg" ringColorClass="ring-blue-700" className='card'>
