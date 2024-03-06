@@ -60,7 +60,7 @@ const AboutMe: React.FC = () => {
             <div className="xl:mx-28">
               <div className="flex items-center p-4 border border-zinc-300 rounded-lg dark:border-zinc-800 profile">
                 <div className="flex-shrink-0 h-32 w-32 bg-zinc-50 dark:bg-zinc-800">
-                  <img className="h-full w-full object-cover rounded-md" src="./src/assets/img/me.png" alt="luan"/>
+                  <img className="h-full w-full object-cover rounded-md" src="./public/assets/img/me.png" alt="luan"/>
                 </div>
                 <div className="ml-4 flex-grow ">
                   <h2 className="text-xl font-bold text-zinc-700 dark:text-zinc-300">Luan Rodrigues</h2>
@@ -88,7 +88,7 @@ const AboutMe: React.FC = () => {
                   <div className="xl:mx-2">
                     <div className="group rounded-xl flex items-center gap-4 bg-zinc-50 dark:bg-zinc-950 pb-5 xl:p-5 card">
                       <div className="group-hover:ring-8 ring-blue-600 ring-opacity-50 rounded-full overflow-hidden transition-all duration-300 ease-in-out">
-                        <img src="./src/assets/img/si.png" alt="Descrição da imagem" className="w-12 h-auto transition-all duration-300 ease-in-out"/>
+                        <img src="./public/assets/img/si.png" alt="Descrição da imagem" className="w-12 h-auto transition-all duration-300 ease-in-out"/>
                       </div>
                       <div className="font-medium dark:text-white">
                         <AlertTitle className='mb-2'>Information Systems</AlertTitle>
@@ -101,7 +101,7 @@ const AboutMe: React.FC = () => {
                   <div className="xl:mx-4">
                     <div className="group rounded-xl flex items-center gap-4 bg-zinc-50 dark:bg-zinc-950 pb-5 xl:p-5 card">
                       <div className="group-hover:ring-8 ring-rose-500 ring-opacity-50 rounded-full overflow-hidden transition-all duration-300 ease-in-out">
-                        <img src="./src/assets/img/fiap.png" alt="Descrição da imagem" className="w-12 h-auto transition-all duration-300 ease-in-out"/>
+                        <img src="./public/assets/img/fiap.png" alt="Descrição da imagem" className="w-12 h-auto transition-all duration-300 ease-in-out"/>
                       </div>
                       <div className="font-medium dark:text-white">
                         <AlertTitle className='mb-2'>IT Infrastructure Management</AlertTitle>
@@ -114,7 +114,7 @@ const AboutMe: React.FC = () => {
                   <div className="xl:mx-4">
                     <div className="group rounded-xl flex items-center gap-4 bg-zinc-50 dark:bg-zinc-950 pb-5 xl:p-5 card">
                       <div className="group-hover:ring-8 ring-green-700 ring-opacity-50 rounded-full overflow-hidden transition-all duration-300 ease-in-out">
-                        <img src="./src/assets/img/ifce.png" alt="Descrição da imagem" className="w-12 h-auto transition-all duration-300 ease-in-out"/>
+                        <img src="./public/assets/img/ifce.png" alt="Descrição da imagem" className="w-12 h-auto transition-all duration-300 ease-in-out"/>
                       </div>
                       <div className="font-medium dark:text-white">
                         <AlertTitle className='mb-2'>Data Pre-Processing in Python</AlertTitle>
@@ -127,7 +127,7 @@ const AboutMe: React.FC = () => {
                   <div className="xl:mx-4">
                     <div className="group rounded-xl flex items-center gap-4 bg-zinc-50 dark:bg-zinc-950 pb-5 xl:p-5 card">
                       <div className="group-hover:ring-8 ring-violet-700 ring-opacity-50 rounded-full overflow-hidden transition-all duration-300 ease-in-out">
-                        <img src="./src/assets/img/rocketseat.png" alt="Descrição da imagem" className="w-12 h-auto transition-all duration-300 ease-in-out"/>
+                        <img src="./public/assets/img/rocketseat.png" alt="Descrição da imagem" className="w-12 h-auto transition-all duration-300 ease-in-out"/>
                       </div>
                       <div className="font-medium dark:text-white">
                         <AlertTitle className='mb-2'>Discover</AlertTitle>
@@ -140,7 +140,7 @@ const AboutMe: React.FC = () => {
                   <div className="xl:mx-4">
                     <div className="group rounded-xl flex items-center gap-4 bg-zinc-50 dark:bg-zinc-950 pb-5 xl:p-5 card">
                       <div className="group-hover:ring-8 ring-red-500 ring-opacity-50 rounded-full overflow-hidden transition-all duration-300 ease-in-out">
-                        <img src="./src/assets/img/fundacaoBradesco.png" alt="Descrição da imagem" className="w-12 h-auto transition-all duration-300 ease-in-out"/>
+                        <img src="./public/assets/img/fundacaoBradesco.png" alt="Descrição da imagem" className="w-12 h-auto transition-all duration-300 ease-in-out"/>
                       </div>
                       <div className="font-medium dark:text-white">
                         <AlertTitle className='mb-2'>IT Systems Projects</AlertTitle>
