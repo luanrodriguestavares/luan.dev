@@ -1,11 +1,10 @@
 import React, { useEffect } from 'react';
-import { FolderDot } from 'lucide-react';
+import { FolderDot, Linkedin, Github, Instagram, Mail, Phone } from 'lucide-react';
 import Project from '../ui/project';
 import ScrollReveal from 'scrollreveal';
 import empregajovem from '@/assets/img/empregajovem.png';
 import ecologic from '@/assets/img/ecologic.png';
-
-
+import SocialMedia from '../ui/socialmedia';
 
 
 const Projects: React.FC = () => {
@@ -40,6 +39,15 @@ const Projects: React.FC = () => {
         reset: false,
         });
 
+        ScrollReveal().reveal('.socialmedias', {
+          origin: 'left',
+          distance: '15px',
+          duration: 800,
+          delay: 200,
+          easing: 'ease-out',
+          reset: false,
+        });
+
 }, []);
 
     return (
@@ -61,7 +69,7 @@ const Projects: React.FC = () => {
                     description="Projeto voltado para jovens em busca de suas primeiras oportunidades no mercado de trabalho, os usuários podem criar currículos profissionais, destacando suas principais habilidades e experiências. Além disso, oferece uma plataforma para encontrar vagas de emprego ou para enviar informações para o banco de talentos."
                     tags={['HTML', 'Tailwind CSS', 'Javascript', 'Firebase']}
                     visitLink="https://empregajovemmais.netlify.app/"
-                    viewCodeLink="https://seusite.com/viewcode"
+                    viewCodeLink="https://github.com/luanrodriguestavares/EmpregaJovemMais"
                     />
                 </div>
                 <div className="right">
@@ -71,12 +79,59 @@ const Projects: React.FC = () => {
                     description="Projeto de conscientização de boas práticas de meio ambiente."
                     tags={['HTML', 'Tailwind CSS', 'Javascript']}
                     visitLink="https://ecologic-sistemasdeinformacao.netlify.app/"
-                    viewCodeLink="https://ecologic-sistemasdeinformacao.netlify.app/"
+                    viewCodeLink="https://github.com/luanrodriguestavares/ecologic"
                     />
                 </div>
               </div>
             </div>
           </div>
+          <div className="mt-4 flex items-center p-4 border border-zinc-300 rounded-lg dark:border-zinc-800 socialmedias">
+              <div className="xl:mx-4 flex-grow">
+                <h2 className="text-md xl:text-xl font-bold text-center text-zinc-700 dark:text-zinc-300">
+                  Contacts<Phone className='inline ml-1 w-5 h-5' stroke-width="1.5"></Phone>
+                </h2>
+                <p className="my-3 text-center text-zinc-500 dark:text-zinc-400 text-sm mb-8">
+                  Liked what you saw? We can work together!
+                </p>
+                  <div className="flex justify-center space-x-4">
+                    <SocialMedia
+                      name="LinkedIn"
+                      icon={<Linkedin className="text-zinc-50 w-5 h-5" />}
+                      tooltip="Visit my LinkedIn profile"
+                      color="bg-blue-600"
+                      hoverColor="hover:bg-blue-700"
+                      url="https://www.linkedin.com/in/luanrodriguesti/"
+                    />
+
+                    <SocialMedia
+                      name="Github"
+                      icon={<Github className="text-zinc-50 w-5 h-5" />}
+                      tooltip="Visit my Github profile"
+                      color="bg-zinc-700"
+                      hoverColor="hover:bg-zinc-900"
+                      url="https://github.com/luanrodriguestavares"
+                    />
+
+                    <SocialMedia
+                      name="Instagram"
+                      icon={<Instagram className="text-zinc-50 w-5 h-5" />}
+                      tooltip="Visit my Instagram profile"
+                      color="bg-rose-500"
+                      hoverColor="hover:bg-rose-700"
+                      url="https://www.instagram.com/luanrodrigues7k/"
+                    />
+
+                    <SocialMedia
+                      name="Email"
+                      icon={<Mail className="text-zinc-50 w-5 h-5" />}
+                      tooltip="Send me an email"
+                      color="bg-indigo-500"
+                      hoverColor="hover:bg-indigo-700"
+                      url="mailto:luantavares.developer@gmail.com"
+                    />
+                  </div>
+                </div>
+              </div>
         </div>
       </div>
     );

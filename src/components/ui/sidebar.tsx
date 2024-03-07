@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Rocket, User, FolderDot, Computer, Briefcase } from 'lucide-react';
+import { Rocket, User, FolderDot, Computer } from 'lucide-react';
 import { ModeToggle } from './mode-toggle';
 import { LanguageToggle } from './language-toogle';
 import { Link, useLocation } from 'react-router-dom';
