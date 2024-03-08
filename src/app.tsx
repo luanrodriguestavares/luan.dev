@@ -4,7 +4,7 @@ import AboutMe from '@/components/sections/about-me';
 import Stacks from '@/components/sections/stacks';
 import Projects from '@/components/sections/projects';
 import { ThemeProvider } from '@/components/ui/theme-provider';
-
+import i18next from 'i18next';
 
 
 export function App() {

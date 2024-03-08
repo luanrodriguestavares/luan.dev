@@ -6,7 +6,6 @@ import empregajovem from '@/assets/img/empregajovem.png';
 import ecologic from '@/assets/img/ecologic.png';
 import SocialMedia from '../ui/socialmedia';
 
-
 const Projects: React.FC = () => {
     useEffect(() => {
 
@@ -61,6 +60,7 @@ const Projects: React.FC = () => {
               <p className="ml-4 text-zinc-500 dark:text-zinc-400 font-normal text-xs xl:text-sm title mb-8">
                 These are my favorite projects.
               </p>
+
               <div className="md:ml-4 xl:ml-4 text-center mx-auto grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2">
                 <div className="left">
                     <Project

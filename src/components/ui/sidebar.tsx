@@ -45,7 +45,7 @@ const Sidebar = () => {
               </button>
             </div>
             <div className="group">
-              <LanguageToggle />
+              {/*<LanguageToggle />*/}
               <ModeToggle />
             </div>
           </div>
@@ -78,7 +78,7 @@ const Sidebar = () => {
             <li className={`group ${location.pathname === '/stacks' ? 'bg-zinc-200 dark:bg-zinc-900 rounded-lg' : ''}`}>
               <Link to="/stacks" className="flex items-center p-2 text-zinc-900 dark:text-zinc-50 rounded-lg hover:bg-zinc-200 dark:hover:bg-zinc-900 cursor-default group">
                 <Computer className="w-5 h-5"/>
-                <span className="ml-2 text-sm font-normal">Stacks and uses</span>
+                <span className="ml-2 text-sm font-normal">Stack and uses</span>
               </Link>
             </li>
             <li className={`group ${location.pathname === '/projects' ? 'bg-zinc-200 dark:bg-zinc-900 rounded-lg' : ''}`}>
