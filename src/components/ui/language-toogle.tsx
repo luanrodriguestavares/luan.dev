@@ -1,17 +1,8 @@
 import { Globe } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger,} from "@/components/ui/dropdown-menu";
-import { useTranslation } from 'react-i18next';
-
-type SupportedLanguages = 'en' | 'pt';
 
 export function LanguageToggle() {
-  const { i18n } = useTranslation();
-
-  const toggleLanguage = (language: SupportedLanguages) => {
-    i18n.changeLanguage(language);
-  };
-
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
@@ -24,10 +15,10 @@ export function LanguageToggle() {
         </Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent align="end">
-        <DropdownMenuItem onClick={() => toggleLanguage("en")}>
+        <DropdownMenuItem>
           English
         </DropdownMenuItem>
-        <DropdownMenuItem onClick={() => toggleLanguage("pt")}>
+        <DropdownMenuItem>
           Português
         </DropdownMenuItem>
       </DropdownMenuContent>
