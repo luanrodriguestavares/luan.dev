@@ -3,7 +3,7 @@ import { FolderDot, Linkedin, Github, Instagram, Mail, Phone } from 'lucide-reac
 import Project from '../ui/project';
 import ScrollReveal from 'scrollreveal';
 import empregajovem from '@/assets/img/empregajovem.png';
-import ecologic from '@/assets/img/ecologic.png';
+import getqr from '@/assets/img/getqr.png';
 import SocialMedia from '../ui/socialmedia';
 
 const Projects: React.FC = () => {
@@ -66,7 +66,7 @@ const Projects: React.FC = () => {
                     <Project
                     imageSrc={empregajovem}
                     title="Emprega Jovem +"
-                    description="Projeto voltado para jovens em busca de suas primeiras oportunidades no mercado de trabalho, os usuários podem criar currículos profissionais, destacando suas principais habilidades e experiências. Além disso, oferece uma plataforma para encontrar vagas de emprego ou para enviar informações para o banco de talentos."
+                    description="Project aimed at young individuals seeking their first opportunities in the job market, where users can create professional resumes highlighting their key skills and experiences. Additionally, it provides a platform to discover job openings or to submit information to the talent pool."
                     tags={['HTML', 'Tailwind CSS', 'Javascript', 'Firebase']}
                     visitLink="https://empregajovemmais.netlify.app/"
                     viewCodeLink="https://github.com/luanrodriguestavares/EmpregaJovemMais"
@@ -74,12 +74,12 @@ const Projects: React.FC = () => {
                 </div>
                 <div className="right">
                     <Project
-                    imageSrc={ecologic}
-                    title="Ecologic"
-                    description="Projeto de conscientização de boas práticas de meio ambiente."
-                    tags={['HTML', 'Tailwind CSS', 'Javascript']}
-                    visitLink="https://ecologic-sistemasdeinformacao.netlify.app/"
-                    viewCodeLink="https://github.com/luanrodriguestavares/ecologic"
+                    imageSrc={getqr}
+                    title="GetQR"
+                    description="Platform designed for users to scan QR codes effortlessly and manage the data efficiently. It offers tools to save scanned information into Excel or PDF formats for easy organization and access."
+                    tags={['React Js', 'Tailwind CSS', 'Typescript', 'Vite']}
+                    visitLink="https://get-qrcode.netlify.app/"
+                    viewCodeLink="https://github.com/luanrodriguestavares/GetQr"
                     />
                 </div>
               </div>

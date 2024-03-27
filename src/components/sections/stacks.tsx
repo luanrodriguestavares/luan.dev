@@ -113,7 +113,7 @@ const Stacks = () => {
                   <AlertTitle className='mb-2 font-normal text-sm'>SQL Server</AlertTitle>
                 </Card>
                 <Card src="https://www.tshirtgeek.com.br/wp-content/uploads/2021/08/com031.jpg" ringColorClass="ring-zinc-500" className='card'>
-                  <AlertTitle className='mb-2 font-normal text-sm'>MySQL</AlertTitle>
+                  <AlertTitle className='mb-2 font-normal text-sm'>MySQL Workbench</AlertTitle>
                 </Card>
               </div>
 
@@ -137,6 +137,9 @@ const Stacks = () => {
                 </Card>
                 <Card src="https://play-lh.googleusercontent.com/6dOQWZRI78o5HAshGgV6XRnTeN-BVXwh2DXkHjZuBsyKlDQHgx1_W6vzwnYN56k-wcs" ringColorClass="ring-indigo-500" className='card'>
                   <AlertTitle className='mb-2 font-normal text-sm'>Kodular</AlertTitle>
+                </Card>
+                <Card src="https://avatars.githubusercontent.com/u/9423579?s=280&v=4" ringColorClass="ring-orange-500" className='card'>
+                  <AlertTitle className='mb-2 font-normal text-sm'>TOTVS Fluig</AlertTitle>
                 </Card>
               </div>
 
